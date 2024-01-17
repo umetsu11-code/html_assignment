@@ -95,6 +95,10 @@ body {
      padding: 0 20px;
      line-height: 0;
  }
+ .HeaderNavListItem__button:hover {
+    opacity: 0.6;
+  }
+
  
  
   /*.counseling_button{
@@ -226,6 +230,8 @@ body {
      transition: opacity .2s;
  }
  
+
+ /* ファーストビューのボタン*/
  .FirstViewContent__button {
      align-items: center;
      background-color: #f79214;
@@ -243,6 +249,12 @@ body {
      text-align: center;
      width: 100%;
  }
+ .FirstViewContent__button:hover {
+    opacity: 0.6;
+  }
+
+
+
  .FirstViewCaption {
      color: #a2a2a4;
      font-size: 12px;
